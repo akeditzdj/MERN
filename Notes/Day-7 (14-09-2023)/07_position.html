@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .main {
+        border: 5px solid #ccc;
+        width: 500px;
+        height: 500px;
+        font-size: 18px;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        color: #fff;
+        padding: 10px;
+        position: static;
+      }
+
+      .box1 {
+        background-color: teal;
+      }
+      .box2 {
+        background-color: tomato;
+      }
+      .box3 {
+        background-color: yellowgreen;
+      }
+
+      /*
+        static
+        relative
+          LTRB (wont leave normal document flow)
+        absolute
+          LTRB 
+          Leave normal document flow
+          by default body is its parent
+          add relative to its parent
+        fixed
+        sticky
+      */
+      .main {
+        position: relative;
+      }
+      .box1 {
+        position: absolute;
+
+        left: 250px;
+        bottom: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      Main Box
+      <div class="box box1">Box-1</div>
+      <div class="box box2">Box-2</div>
+      <div class="box box3">Box-3</div>
+    </div>
+  </body>
+</html>

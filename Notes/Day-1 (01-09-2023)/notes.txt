@@ -1,0 +1,60 @@
+HTML - Hypertext Markup Language
+
+HTTP - Hypertext Transfer Protocol
+
+URL - Uniform Resource Locator
+
+<> -> Tags
+
+Container Tags or Pair Tags
+	<html></html>
+	<p></p>
+Standalone Tags or Unpair Tags
+	<hr>
+	<img>
+	<br>
+
+
+VS CODE EXTENSION
+  HTML CSS Support
+  Live Server
+  Prettier - Code formatter
+
+Save :
+  Filename.html   -> need to save html file with .html extenstion
+
+Colors: 
+https://color.adobe.com/create/color-wheel
+
+Attributes
+
+
+Tags : 
+	html
+	head
+	title
+	body
+	font
+	h1 - h6   -> Heading Tags
+	P         -> Paragraph  tag
+	b         -> Bold
+	i         -> Italic
+	u         -> Underline
+	s         -> Strike Tag
+	tt        -> Typewriting Text
+	sup       -> superscript
+	sub       -> subscript
+
+	List Tags
+		ul- Unordered List  
+			 li-list
+			 type: square,circle,disc
+		ol - Ordered List 
+			 li-list
+			 type: 1,A,a,I,i
+		dl - Description List
+				dt - Description title
+				dd - Description Data
+		Nested List
+
+

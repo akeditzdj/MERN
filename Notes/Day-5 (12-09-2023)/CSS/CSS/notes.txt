@@ -1,0 +1,39 @@
+CSS - Cascading Style Sheets
+
+3 ways to include css style in web page
+  1. Inline Style   (Inside the tag using style attribute)
+  2. Internal Style (style tag inside head tag)
+  3. External Style (externel file with *.css extension)
+
+
+
+element{
+  property:value;
+  property:value;
+  property:value;
+}
+
+Selector :
+  1.Element Selectors  (Tag)
+  2.ID Selector (#name)
+  3.Class Selectors (.name)
+
+Font Properties
+  font-family : "Poppins", sans-serif;
+  font-size   : 25px;
+  font-weight : normal | bold | bolder | lighter | Numeric Values;
+  font-style  : normal | italic
+  font-variant: normal | small-caps
+
+Text Properties
+  text-alignment : left | Right | Center | justify
+  text-decoration: overline | line-through | underline;
+  text-decoration-style: solid | dashed | dotted | double |  wavy;
+  text-decoration-color: color value | Hex Code | RGB | RGBA | HSL;
+  letter-spacing: normal | length
+  word-spacing: normal | length
+  vertical-align: super | sub;
+  text-transform: uppercase | lowercase | capitalize | None;
+  text-indent : length
+  direction: ltr | rtl;
+  line-height: normal | length

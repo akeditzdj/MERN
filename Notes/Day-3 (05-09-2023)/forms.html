@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Registration Form</legend>
+      <form>
+        <table cellpadding="5px">
+          <tr>
+            <td><label for="name">Name</label></td>
+            <td>
+              <input type="text" id="name" placeholder="Enter Full Name" title="Please fill Full Name" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" id="email" placeholder="Enter Email" /></td>
+          </tr>
+          <tr>
+            <td><label>Gender</label></td>
+            <td>
+              <label><input type="radio" name="gender" checked /> Male</label>
+              <label><input type="radio" name="gender" /> Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="course">Education Details</label></td>
+            <td>
+              <select id="education">
+                <option value="">Select Education</option>
+                <option value="10">10</option>
+                <option value="12">12</option>
+                <option value="UG">UG</option>
+                <option value="PG">PG</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="course">Course Details</label></td>
+            <td>
+              <select id="course" multiple>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Hobbies</td>
+            <td>
+              <label><input type="checkbox" checked />Playing</label>
+              <label><input type="checkbox" />Singing</label>
+              <label><input type="checkbox" />Cooking</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="address">Addresss</label></td>
+            <td>
+              <textarea id="address" rows="5" cols="21" placeholder="Full Address" style="resize: none"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button>Register Now</button>
+              <input type="reset" id="reset" value="Clear All" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </fieldset>
+
+    <p><input type="reset" value="Clear" /> Reset</p>
+    <p><input type="button" value="Button Text" /> Button</p>
+    <p><input type="week" /> week</p>
+    <p><input type="url" /> url</p>
+    <p><input type="time" /> time</p>
+    <p><input type="search" /> search</p>
+    <p><input type="month" /> month</p>
+    <p><input type="number" min="0" max="5" /> number</p>
+    <p><input type="hidden" /> Hidden</p>
+    <p><input type="file" multiple /> Multiple file</p>
+    <p><input type="file" /> Single file</p>
+    <p><input type="text" /> text</p>
+    <p><input type="email" /> email</p>
+    <p><input type="date" /> date</p>
+    <p><input type="password" /> password</p>
+    <p><input type="checkbox" /> checkbox</p>
+    <p><input type="radio" /> radio</p>
+    <p><input type="range" /> Range</p>
+    <p><input type="color" /> Color</p>
+  </body>
+</html>

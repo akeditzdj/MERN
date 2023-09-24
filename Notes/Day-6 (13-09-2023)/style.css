@@ -1,0 +1,14 @@
+
+      .box {
+        width: 800px;
+        height: 600px;
+        background-color: orangered;
+        background-image: url("camera.jpg");
+        background-size: 250px 250px;
+       
+        
+      }
+
+      .box img{
+        width: 100%;
+      }

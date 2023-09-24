@@ -1,0 +1,53 @@
+Flex Properties
+
+Container Properties
+  display:flex;
+
+  
+
+  flex-direction: row; /* Default */
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse;
+
+  flex-wrap: nowrap; /* Default */
+  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+
+  flex-flow: <flex-direction> <flex-wrap>
+
+  gap: all;
+  gap:row col;
+
+  Main Axis
+    row->X Move
+    column-> Y Move
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: space-between;
+
+  Cross Axis
+    row->Y Move
+    column-> X Move
+  align-items: stretch;
+  align-items: end;
+  align-items: center;
+  align-items: start;
+  align-items: baseline;
+
+  align-content: flex-start;
+  align-content: center;
+  align-content: flex-end;
+  align-content: space-between;
+  align-content: space-around;
+  align-content: space-evenly;
+
+  Flex Item Properties
+
+  order     : values
+  flex-grow : values
+
+
